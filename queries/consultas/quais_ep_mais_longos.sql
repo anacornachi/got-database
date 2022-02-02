@@ -1,4 +1,4 @@
--- Qual o nome do episódio mais longo de todas as temporadas?
-select titulo, temporada, duracao
-from episodios
-order by duracao desc limit 3;
+-- Qual o nome dos episódios mais longos de todas as temporadas?
+SELECT titulo, temporada, duracao
+FROM episodios
+ORDER BY duracao DESC LIMIT 3;
