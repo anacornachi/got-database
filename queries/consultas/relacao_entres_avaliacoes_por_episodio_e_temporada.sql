@@ -1,4 +1,3 @@
 --  Qual a relação entres as avaliações por episódio e temporada? 
-select temporada, episodio, avaliacao
-from episodios
-order by temporada;
+SELECT temporada, episodio, avaliacao
+ORDER BY temporada;
