@@ -1,3 +1,3 @@
 -- Quantos personagens possui a série GOT?
-select count(id) as quantidade_personagens
-from personagens;
+SELECT COUNT(id) AS quantidade_personagens
+FROM personagens;
